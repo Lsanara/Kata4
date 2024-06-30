@@ -1,2 +1,6 @@
-package kata4;public interface TrackLoader {
+package kata4;
+
+import java.util.List;
+public interface TrackLoader {
+    List<Track> loadAll();
 }
